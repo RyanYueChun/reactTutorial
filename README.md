@@ -68,3 +68,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+----------------------
+My own comments
+----------------------
+
+Tutorial link : https://reactjs.org/tutorial/tutorial.html
+### Steps followed
+
+1. Create a new project with `npx create-react-app my-app`
+2. Delete all files/folders created by default in my-app/src/
+3. Add src/index.css with the code `https://codepen.io/gaearon/pen/oWWQNa?editors=0100`
+4. Add src/index.js with the code `https://codepen.io/gaearon/pen/oWWQNa?editors=0010`
+5. Import 'react', 'react-dom' and './index.css' in the index.js file
+6. Do the part Overview `https://reactjs.org/tutorial/tutorial.html#overview`
