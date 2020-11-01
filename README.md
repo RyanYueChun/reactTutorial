@@ -83,3 +83,12 @@ Tutorial link : https://reactjs.org/tutorial/tutorial.html
 4. Add src/index.js with the code `https://codepen.io/gaearon/pen/oWWQNa?editors=0010`
 5. Import 'react', 'react-dom' and './index.css' in the index.js file
 6. Do the part Overview `https://reactjs.org/tutorial/tutorial.html#overview`
+7. Do the rest of the tutorial
+
+
+
+### Notes
+
+1. In the methods render(), putting the jsx (html-like) codes between parentheses helps to avoid some issues with ';' at the end. It may prevent unwanted breaks
+2. Changing an object's property/value without mutations helps in detecting changes in states. Avoid issues with pointers too. See `https://reactjs.org/tutorial/tutorial.html#why-immutability-is-important`
+3. Lifting State Up: have the logics and data be unified in a common parent component
