@@ -92,3 +92,7 @@ Tutorial link : https://reactjs.org/tutorial/tutorial.html
 1. In the methods render(), putting the jsx (html-like) codes between parentheses helps to avoid some issues with ';' at the end. It may prevent unwanted breaks
 2. Changing an object's property/value without mutations helps in detecting changes in states. Avoid issues with pointers too. See `https://reactjs.org/tutorial/tutorial.html#why-immutability-is-important`
 3. Lifting State Up: have the logics and data be unified in a common parent component
+4. When adding a constructor to a React.Component, this new constructor should always call Super(props) at the very beginning
+5. To add elements to an array, use either push() -it mutates the original array-, or concat() -doesn’t mutate the original array-
+6. Keys for items of a list : `https://reactjs.org/tutorial/tutorial.html#picking-a-key` : a special and reserved property in React; cannot be referenced using this.props.key; etc..
+7. Each time `setState()` is called in a component this latter is rendered again. In short it is updated
