@@ -96,3 +96,10 @@ Tutorial link : https://reactjs.org/tutorial/tutorial.html
 5. To add elements to an array, use either push() -it mutates the original array-, or concat() -doesn’t mutate the original array-
 6. Keys for items of a list : `https://reactjs.org/tutorial/tutorial.html#picking-a-key` : a special and reserved property in React; cannot be referenced using this.props.key; etc..
 7. Each time `setState()` is called in a component this latter is rendered again. In short it is updated
+
+Convert from JavaScript to TypeScript
+8. Change to TypeScript : https://create-react-app.dev/docs/adding-typescript/
+9. Generate tsconfig.json : https://reactjs.org/docs/static-type-checking.html#configuring-the-typescript-compiler
+10. Manually change the .js files into either .ts or .tsx (where JSX is used)
+11. Afterwards `npm run build`
+12. `npm start`
